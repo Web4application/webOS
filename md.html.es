@@ -117,7 +117,7 @@
     <div id="viewport">
         <!-- Abstract Layer -->
         <div class="glass-pane" style="transform: translateZ(200px) rotateY(-10deg);">
-            <cfoutput><h1>#paperMetadata.title#</h1></cfoutput>
+            <cfoutput><h1>paper.Metadata.title#</h1></cfoutput>
             <p>PaperWeb transformation utilizing the .oggx spatial protocol. This document exists as a multi-layered interactive entity within a 3D grid environment.</p>
             <div class="data-stream"></div>
         </div>
